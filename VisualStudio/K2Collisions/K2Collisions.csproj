@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug64</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5B6EB545-767B-4684-84D6-F0F34F198FA9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>K2Collisions</RootNamespace>
+    <AssemblyName>K2Collisions</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug64|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\..\..\..\AppData\Roaming\Grasshopper\Libraries\Kangaroo2\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\..\..\AppData\Roaming\Grasshopper\Libraries\Kangaroo2\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="KangarooSolver">
+      <HintPath>..\..\..\..\..\..\AppData\Roaming\Grasshopper\Libraries\Kangaroo2\KangarooSolver.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Plankton">
+      <HintPath>..\..\..\..\..\..\AppData\Roaming\Grasshopper\Libraries\Kangaroo2\Plankton.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="PlanktonGh">
+      <HintPath>..\..\..\..\..\..\AppData\Roaming\Grasshopper\Libraries\Kangaroo2\PlanktonGh.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="PolyMesh_Common">
+      <HintPath>..\..\..\..\..\..\AppData\Roaming\Grasshopper\Libraries\CITA\mzwi\mzwi\PolyMesh_Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="PolyMesh_Core">
+      <HintPath>..\..\..\..\..\..\AppData\Roaming\Grasshopper\Libraries\VDA_Graphs\PolyMesh_Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Core">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="RhinoCommon">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Rhinoceros 5 (64-bit)\System\RhinoCommon.dll</HintPath>
+      <Private>False</Private>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Grasshopper">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Common Files\McNeel\Rhinoceros\5.0\Plug-ins\Grasshopper (b45a29b1-4343-4035-989e-044e8580d9cf)\0.9.76.0\Grasshopper.dll</HintPath>
+      <Private>False</Private>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="GH_IO">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Common Files\McNeel\Rhinoceros\5.0\Plug-ins\Grasshopper (b45a29b1-4343-4035-989e-044e8580d9cf)\0.9.76.0\GH_IO.dll</HintPath>
+      <Private>False</Private>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CustomGoals\HingeAll.cs" />
+    <Compile Include="CustomGoals\LineLineAll.cs" />
+    <Compile Include="CustomGoals\PlasticNails.cs" />
+    <Compile Include="CustomGoals\SpringGrow.cs" />
+    <Compile Include="CustomGoals\XYZNails.cs" />
+    <Compile Include="DataStructures\Domain.cs" />
+    <Compile Include="DataStructures\Domain3d.cs" />
+    <Compile Include="DataStructures\RhinoExtensions.cs" />
+    <Compile Include="DataStructures\SlurMath.cs" />
+    <Compile Include="DataStructures\Spatial3d.cs" />
+    <Compile Include="DataStructures\SpatialGrid3d.cs" />
+    <Compile Include="DataStructures\SpatialHash3d.cs" />
+    <Compile Include="DataStructures\Vec3d.cs" />
+    <Compile Include="K2CollisionsInfo.cs" />
+    <Compile Include="CustomGoals\LineLineCollider.cs" />
+    <Compile Include="CustomGoals\LineLineColliderSpatialHash.cs" />
+    <Compile Include="CustomGoals\LineLineColliderSpatialHash2.cs" />
+    <Compile Include="Solvers\K2CollisionsPlanktonComponent.cs" />
+    <Compile Include="Solvers\K2CollisionsPlanktonGHComponent.cs" />
+    <Compile Include="Solvers\K2CollisionsPolylmeshComponent.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Utils\BoundingBoxComponent.cs" />
+    <Compile Include="Utils\GoalParametersComponent.cs" />
+    <Compile Include="Weaver\WeaverComponent.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\box.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Solver.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\values.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Solver2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\weaver.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="CustomGoals_Components\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>Copy "$(TargetPath)" "$(TargetDir)$(ProjectName).gha"
+Erase "$(TargetPath)"</PostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <FallbackCulture>en-US</FallbackCulture>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug64|AnyCPU'">
+    <StartProgram>C:\Program Files\Rhinoceros 5 (64-bit)\System\Rhino.exe</StartProgram>
+    <StartArguments>
+    </StartArguments>
+    <StartAction>Program</StartAction>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+</Project>

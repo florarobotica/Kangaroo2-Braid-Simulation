@@ -1,0 +1,24 @@
+C:\Users\pves\documents\visual studio 2015\Projects\K2Collisions\K2Collisions\obj\Debug64\K2Collisions.csprojResolveAssemblyReference.cache
+C:\Users\pves\documents\visual studio 2015\Projects\K2Collisions\K2Collisions\bin\K2Collisions.dll
+C:\Users\pves\documents\visual studio 2015\Projects\K2Collisions\K2Collisions\bin\K2Collisions.pdb
+C:\Users\pves\documents\visual studio 2015\Projects\K2Collisions\K2Collisions\obj\Debug64\K2Collisions.dll
+C:\Users\pves\documents\visual studio 2015\Projects\K2Collisions\K2Collisions\obj\Debug64\K2Collisions.pdb
+C:\Users\pves\AppData\Roaming\Grasshopper\Libraries\Kangaroo2\K2Collisions.dll
+C:\Users\pves\AppData\Roaming\Grasshopper\Libraries\Kangaroo2\K2Collisions.pdb
+C:\Users\pves\OneDrive\02_VisualStudio\K2Collisions\K2Collisions\obj\Debug64\K2Collisions.csprojResolveAssemblyReference.cache
+C:\Users\pves\OneDrive\02_VisualStudio\K2Collisions\K2Collisions\obj\Debug64\K2Collisions.dll
+C:\Users\pves\OneDrive\02_VisualStudio\K2Collisions\K2Collisions\obj\Debug64\K2Collisions.pdb
+C:\Users\Petras\AppData\Roaming\Grasshopper\Libraries\Kangaroo2\K2Collisions.dll
+C:\Users\Petras\AppData\Roaming\Grasshopper\Libraries\Kangaroo2\K2Collisions.pdb
+C:\Users\Petras\OneDrive\02_VisualStudio\K2Collisions\K2Collisions\obj\Debug64\K2Collisions.csprojResolveAssemblyReference.cache
+C:\Users\Petras\OneDrive\02_VisualStudio\K2Collisions\K2Collisions\obj\Debug64\K2Collisions.dll
+C:\Users\Petras\OneDrive\02_VisualStudio\K2Collisions\K2Collisions\obj\Debug64\K2Collisions.pdb
+C:\Users\pves\OneDrive\02_VisualStudio\K2Collisions\K2Collisions\obj\Debug64\K2Collisions.Properties.Resources.resources
+C:\Users\pves\OneDrive\02_VisualStudio\K2Collisions\K2Collisions\obj\Debug64\K2Collisions.csproj.GenerateResource.Cache
+C:\Users\Petras\Documents\Visual Studio 2015\Projects\K2Collisions\K2Collisions\K2Collisions\obj\Debug64\K2Collisions.csprojResolveAssemblyReference.cache
+C:\Users\Petras\Documents\Visual Studio 2015\Projects\K2Collisions\K2Collisions\K2Collisions\obj\Debug64\K2Collisions.Properties.Resources.resources
+C:\Users\Petras\Documents\Visual Studio 2015\Projects\K2Collisions\K2Collisions\K2Collisions\obj\Debug64\K2Collisions.csproj.GenerateResource.Cache
+C:\Users\Petras\Documents\Visual Studio 2015\Projects\K2Collisions\K2Collisions\K2Collisions\obj\Debug64\K2Collisions.dll
+C:\Users\Petras\Documents\Visual Studio 2015\Projects\K2Collisions\K2Collisions\K2Collisions\obj\Debug64\K2Collisions.pdb
+C:\Users\Petras\Documents\Visual Studio 2015\AppData\Roaming\Grasshopper\Libraries\Kangaroo2\K2Collisions.dll
+C:\Users\Petras\Documents\Visual Studio 2015\AppData\Roaming\Grasshopper\Libraries\Kangaroo2\K2Collisions.pdb
