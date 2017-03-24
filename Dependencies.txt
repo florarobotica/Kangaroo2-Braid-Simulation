@@ -1,0 +1,16 @@
+Software needed to run the grasshopper add-on:
+
+Rhinoceros
+https://www.rhino3d.com/
+
+Plugin:
+Grasshopper
+http://www.grasshopper3d.com/
+
+Add-On:
+Kangaroo2
+http://www.food4rhino.com/app/kangaroo-physics
+
+Mesh Library:
+Plankton
+https://github.com/meshmash/Plankton
